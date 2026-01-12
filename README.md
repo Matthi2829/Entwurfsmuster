@@ -64,4 +64,12 @@ Adapter
 
 Beispiel
 Wir haben eine alte Schnittstelle, die wir nicht ändern können, und wollen sie in ein neues System einfügen, das eine andere Schnittstelle erwartet.
-    
+
+Adapter übersetzt eine Schnittstelle in eine andere
+Alte Klasse wird wiederverwendet, ohne sie zu ändern
+Neues System arbeitet einheitlich mit der neuen Schnittstelle
+
+
+Observer:
+
+Beispiel: Wir wollen, dass mehrere Objekte (Observer) automatisch benachrichtigt werden, wenn sich der Status eines anderen Objekts (Subject) ändert – z. B. Wetterstation und Anzeigen.
